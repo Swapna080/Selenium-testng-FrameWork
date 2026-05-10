@@ -10,13 +10,9 @@
       <class name="com.qa.opencart.tests.HomePageTest">
         <methods>
           <include name="homepageSetup"/>
-          <include name="SearchTest"/>
-          <include name="headerTest"/>
+          <include name="SearchTest" invocation-numbers="0"/>
           <include name="setup"/>
           <include name="attachScreenshot"/>
-          <include name="homePageUrlTest"/>
-          <include name="homePageTitleTest"/>
-          <include name="logoutLinkExistTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.opencart.tests.HomePageTest -->

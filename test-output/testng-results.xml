@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="11" passed="0" failed="0" skipped="9">
+<testng-results ignored="2" total="11" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-10T07:09:13 IST" name="Opencart App Test Regression Suite" finished-at="2026-05-10T07:09:36 IST" duration-ms="22400">
+  <suite started-at="2026-05-10T08:51:35 IST" name="Opencart App Test Regression Suite" finished-at="2026-05-10T08:52:23 IST" duration-ms="47707">
     <groups>
     </groups>
-    <test started-at="2026-05-10T07:09:13 IST" name="Home Page Test1" finished-at="2026-05-10T07:09:36 IST" duration-ms="22400">
+    <test started-at="2026-05-10T08:51:35 IST" name="Home Page Test1" finished-at="2026-05-10T08:52:23 IST" duration-ms="47707">
       <class name="com.qa.opencart.tests.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:14 IST" name="setup" finished-at="2026-05-10T07:09:35 IST" duration-ms="21735" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:35 IST" name="setup" finished-at="2026-05-10T08:51:43 IST" duration-ms="7340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -15,276 +15,74 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="homepageSetup()[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="homepageSetup" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="homepageSetup()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:43 IST" name="homepageSetup" finished-at="2026-05-10T08:51:52 IST" duration-ms="8862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homepageSetup -->
-        <test-method signature="headerTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="headerTest" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="headerTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:52 IST" name="headerTest" finished-at="2026-05-10T08:51:53 IST" duration-ms="957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="attachScreenshot" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:53 IST" name="attachScreenshot" finished-at="2026-05-10T08:51:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=headerTest status=SUCCESS method=HomePageTest.headerTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="homePageTitleTest" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:53 IST" name="homePageTitleTest" finished-at="2026-05-10T08:51:53 IST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="attachScreenshot" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:53 IST" name="attachScreenshot" finished-at="2026-05-10T08:51:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageTitleTest status=SUCCESS method=HomePageTest.homePageTitleTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="homePageUrlTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="homePageUrlTest" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="homePageUrlTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:53 IST" name="homePageUrlTest" finished-at="2026-05-10T08:51:53 IST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageUrlTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="attachScreenshot" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:53 IST" name="attachScreenshot" finished-at="2026-05-10T08:51:53 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageUrlTest status=SUCCESS method=HomePageTest.homePageUrlTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="logoutLinkExistTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="logoutLinkExistTest" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="logoutLinkExistTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:53 IST" name="logoutLinkExistTest" finished-at="2026-05-10T08:51:54 IST" duration-ms="1126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutLinkExistTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="attachScreenshot" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:54 IST" name="attachScreenshot" finished-at="2026-05-10T08:51:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutLinkExistTest status=SUCCESS method=HomePageTest.logoutLinkExistTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:54 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T08:51:57 IST" duration-ms="3248" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -297,34 +95,34 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
+              <![CDATA[expected [4] but found [3]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
+              <![CDATA[java.lang.AssertionError: expected [4] but found [3]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1240)
+at org.testng.Assert.assertEquals(Assert.java:1274)
+at com.qa.opencart.tests.HomePageTest.SearchTest(HomePageTest.java:54)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
 at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
 at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
@@ -332,25 +130,24 @@ at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="attachScreenshot" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:57 IST" name="attachScreenshot" finished-at="2026-05-10T08:51:58 IST" duration-ms="493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchTest status=FAILURE method=HomePageTest.SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:51:58 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T08:52:04 IST" duration-ms="5779" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -363,60 +160,21 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="attachScreenshot" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:52:04 IST" name="attachScreenshot" finished-at="2026-05-10T08:52:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchTest status=SUCCESS method=HomePageTest.SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:35 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T07:09:35 IST" duration-ms="0" status="SKIP">
+        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:52:04 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T08:52:06 IST" duration-ms="2550" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -429,60 +187,21 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:36 IST" name="attachScreenshot" finished-at="2026-05-10T07:09:36 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:52:06 IST" name="attachScreenshot" finished-at="2026-05-10T08:52:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchTest status=SUCCESS method=HomePageTest.SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:36 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T07:09:36 IST" duration-ms="1" status="SKIP">
+        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:52:06 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T08:52:19 IST" duration-ms="12881" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -495,60 +214,21 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:36 IST" name="attachScreenshot" finished-at="2026-05-10T07:09:36 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:52:19 IST" name="attachScreenshot" finished-at="2026-05-10T08:52:19 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchTest status=SUCCESS method=HomePageTest.SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:36 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T07:09:36 IST" duration-ms="0" status="SKIP">
+        <test-method signature="SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:52:19 IST" name="SearchTest" data-provider="getSearchData" finished-at="2026-05-10T08:52:22 IST" duration-ms="2709" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -561,60 +241,21 @@ at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7']]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
-Host info: host: 'DEBENDRA', ip: '192.168.1.7'
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:178)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:109)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.qa.opencart.factory.DriverFactory.initDriver(DriverFactory.java:40)
-at com.qa.opencart.base.BaseTest.setup(BaseTest.java:52)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:644)
-at org.testng.TestRunner.beforeRun(TestRunner.java:633)
-at org.testng.TestRunner.run(TestRunner.java:595)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to bind the port.
-Build info: version: '4.39.0', revision: '126f156aee'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.18'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:257)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:117)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-... 26 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SearchTest -->
-        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:36 IST" name="attachScreenshot" finished-at="2026-05-10T07:09:36 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="attachScreenshot(org.testng.ITestResult)[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:52:22 IST" name="attachScreenshot" finished-at="2026-05-10T08:52:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchTest status=SUCCESS method=HomePageTest.SearchTest(java.lang.String,int)[pri:1, instance:com.qa.opencart.tests.HomePageTest@5a8c93] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- attachScreenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.HomePageTest@71f1cc02]" started-at="2026-05-10T07:09:36 IST" name="tearDown" finished-at="2026-05-10T07:09:36 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.HomePageTest@5a8c93]" started-at="2026-05-10T08:52:22 IST" name="tearDown" finished-at="2026-05-10T08:52:23 IST" duration-ms="839" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
