@@ -24,19 +24,19 @@
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
-	</test>
+	</test>-->
 	<test name="Login Page Test edge">
 		<parameter name="browser" value="edge"/>
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
-	</test> -->
-   <test name="Home Page Test1">
+	</test> 
+   <!--<test name="Home Page Test1">
 		<parameter name="browser" value="chrome"/>
 		<classes>
 			<class name="com.qa.opencart.tests.HomePageTest" />
 		</classes>
-	</test>
+	</test>-->
 
 
 	<!--<test name="Product Info Page">
