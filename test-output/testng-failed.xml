@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Opencart App Test Regression Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Home Page Test1(failed)" verbose="4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.opencart.tests.HomePageTest">
+        <methods>
+          <include name="homepageSetup"/>
+          <include name="SearchTest"/>
+          <include name="headerTest"/>
+          <include name="setup"/>
+          <include name="attachScreenshot"/>
+          <include name="homePageUrlTest"/>
+          <include name="homePageTitleTest"/>
+          <include name="logoutLinkExistTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.HomePageTest -->
+    </classes>
+  </test> <!-- Home Page Test1(failed) -->
+</suite> <!-- Failed suite [Opencart App Test Regression Suite] -->
